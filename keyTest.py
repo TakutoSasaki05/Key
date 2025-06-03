@@ -34,7 +34,7 @@ def led(i):
         ledOutput.on()
 
 def slack(i):
-    URL = 'https://hooks.slack.com/services/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'
+    URL = 'slack_wedhook'
     if i:    
         message = {
             "text": "no_key"
